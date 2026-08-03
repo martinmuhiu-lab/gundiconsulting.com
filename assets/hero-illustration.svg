@@ -1,0 +1,79 @@
+<svg width="520" height="640" viewBox="0 0 520 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="handGradA" x1="0%" y1="100%" x2="60%" y2="0%">
+      <stop offset="0%" stop-color="#A6483B"/>
+      <stop offset="100%" stop-color="#D97757"/>
+    </linearGradient>
+    <linearGradient id="handGradB" x1="100%" y1="100%" x2="40%" y2="0%">
+      <stop offset="0%" stop-color="#D4CFC6"/>
+      <stop offset="100%" stop-color="#F3EFE8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#5C4B8A" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#5C4B8A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="260" cy="300" r="230" fill="url(#glow)"/>
+  <circle cx="260" cy="300" r="200" fill="none" stroke="#D97757" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="260" cy="300" r="160" fill="none" stroke="#028090" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g stroke="#1E2761" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <path fill="url(#handGradA)" d="M 118 640
+             C 104 555, 108 465, 128 408
+             C 138 380, 156 362, 180 353
+             C 200 346, 224 344, 248 348
+             C 258 350, 262 360, 262 372
+             L 262 640 Z"/>
+
+    <path fill="url(#handGradB)" d="M 402 640
+             C 416 555, 412 465, 392 408
+             C 382 380, 364 362, 340 353
+             C 320 346, 296 344, 272 348
+             C 262 350, 258 360, 258 372
+             L 258 640 Z"/>
+
+    <path fill="url(#handGradA)" d="M 120 478
+             C 108 442, 122 398, 160 372
+             C 182 358, 202 352, 216 356
+             C 226 359, 230 368, 226 378
+             C 214 402, 196 412, 178 420
+             C 165 430, 158 445, 158 460
+             C 158 472, 150 480, 138 480
+             Z"/>
+
+    <path fill="url(#handGradB)" d="M 400 478
+             C 412 442, 398 398, 360 372
+             C 338 358, 318 352, 304 356
+             C 294 359, 290 368, 294 378
+             C 306 402, 324 412, 342 420
+             C 355 430, 362 445, 362 460
+             C 362 472, 370 480, 382 480
+             Z"/>
+
+    <path fill="url(#handGradA)" d="M 151 400 L 151 271 A 11 11 0 0 1 173 271 L 173 400 Z"/>
+    <path fill="url(#handGradA)" d="M 207 400 L 207 206 A 11 11 0 0 1 229 206 L 229 400 Z"/>
+    <path fill="url(#handGradA)" d="M 263 400 L 263 181 A 11 11 0 0 1 285 181 L 285 400 Z"/>
+    <path fill="url(#handGradA)" d="M 319 400 L 319 236 A 11 11 0 0 1 341 236 L 341 400 Z"/>
+
+    <path fill="url(#handGradB)" d="M 179 400 L 179 236 A 11 11 0 0 1 201 236 L 201 400 Z"/>
+    <path fill="url(#handGradB)" d="M 235 400 L 235 181 A 11 11 0 0 1 257 181 L 257 400 Z"/>
+    <path fill="url(#handGradB)" d="M 291 400 L 291 206 A 11 11 0 0 1 313 206 L 313 400 Z"/>
+    <path fill="url(#handGradB)" d="M 347 400 L 347 271 A 11 11 0 0 1 369 271 L 369 400 Z"/>
+
+  </g>
+
+  <g stroke="#1E2761" stroke-opacity="0.4" stroke-width="1" fill="none" stroke-linecap="round">
+    <path d="M 154 398 Q 162 402 170 398"/>
+    <path d="M 210 398 Q 218 402 226 398"/>
+    <path d="M 266 398 Q 274 402 282 398"/>
+    <path d="M 322 398 Q 330 402 338 398"/>
+    <path d="M 182 398 Q 190 402 198 398"/>
+    <path d="M 238 398 Q 246 402 254 398"/>
+    <path d="M 294 398 Q 302 402 310 398"/>
+    <path d="M 350 398 Q 358 402 366 398"/>
+  </g>
+
+  <circle cx="260" cy="292" r="3.5" fill="#D97757"/>
+</svg>
